@@ -1,16 +1,130 @@
-{:gerund [{:word "admit" :example "In court the accused admitted (to) stealing the documents."}
-          {:word "avoid" :example "I always try to avoid driving in the rush hours."}
-          {:word "be worth" :example "It isn't worth going to exhibition. It's really boring."}
-          {:word "can't help" :example "We can't help laughing when my dad tries to speak French."}
-          {:word "can't stand" :example "I can't stand talking to people who only talk about themselves."}
-          {:word "mind" :example "I don't mind doing housework."}
-          {:word "practise" :example "The more you practise speaking English the more fluent you'll get."}
-          {:word "recommend" :example "I recommend doing a double-decker bus tour as the best way to see London."}
-          {:word "suggest" :example "A friend of mine suggeted visiting London in the autumn."}
-
-          ]
- :infinitive [{:word "afford" :example "I can't afford to go on holiday this summer."}
-              {:word "agree"  :example "I have agreed to support the scientist's theory."}
-              {:word "decide" :example "They've decided to call off the wedding."}
-              {:word "would like" :example "Would you like to try the dress on?"}
-              {:word "be able" :example "I won't be able to work for two weeks after the operation."}]}
+{:gerund
+ [{:word "enjoy"
+   :example "I enjoyed living in France."}
+  {:word "fancy"
+   :example "I fancy seeing a film tonight."}
+  {:word "discuss"
+   :example "We discussed going on holiday together."}
+  {:word "dislike"
+   :example "I dislike waiting for buses."}
+  {:word "finish"
+   :example "We've finished preparing for the meeting."}
+  {:word    "admit"
+   :example "In court the accused admitted (to) stealing the documents. He admitted cheating on the test."}
+  {:word    "avoid"
+   :example "I always try to avoid driving in the rush hours."}
+  {:word    "be worth"
+   :example "It isn't worth going to exhibition. It's really boring."}
+  {:word    "can't help"
+   :example "We can't help laughing when my dad tries to speak French. He can't help talking so loudly."}
+  {:word    "can't stand"
+   :example "I can't stand talking to people who only talk about themselves."}
+  {:word    "mind"
+   :example "I don't mind doing housework. I don't mind coming early."}
+  {:word    "practise"
+   :example "The more you practise speaking English the more fluent you'll get."}
+  {:word    "recommend"
+   :example "I recommend doing a double-decker bus tour as the best way to see London."}
+  {:word "keep"
+   :example "He kept working, although he felt ill."}
+  {:word    "suggest"
+   :example "A friend of mine suggeted visiting London in the autumn."}
+  {:word "miss"
+   :example "She misses living near the beach."}
+  {:word "appreciate"
+   :example "I appreciated her helping me."}
+  {:word "delay"
+   :example "He delayed doing his taxes."}
+  {:word "postpone"
+   :example "He postponed returning to Paris"}
+  {:word "practise"
+   :example "She practised singing the song."}
+  {:word "consider"
+   :example "She considered moving to New York."}
+  {:word "risk"
+   :example "He risked being caught."}
+  {:word "deny"
+   :example "He denied committing the crime."}
+  {:word "mention"
+   :example "He mentioned going to that college."}
+  {:word "imagine"
+   :example "He imagines working there one day."}
+  {:word "tolerate"
+   :example "I tolerated her talking."}
+  {:word "understand"
+   :example "I understand his quitting."}
+  {:word "involve"
+   :example "The job involves travelling to Japan once a month."}
+  {:word "complete"
+   :example "He completed renovating the house."}
+  {:word "report"
+   :example "He reported her stealing the money."}
+  {:word "anticipate"
+   :example "I anticipated arriving late."}
+  {:word "recall"
+   :example "Tom recalled using his credit card at the store."}
+  ]
+ :infinitive
+ [{:word    "afford"
+   :example "I can't afford to go on holiday this summer."}
+  {:word "manage"
+   :example "He managed to open the door without the key."}
+  {:word "prepare"
+   :example "They prepared to take the test / the teachers prepared the students to take the test."}
+  {:word "demand"
+   :example "He demanded to speak to Mr. Harris."}
+  {:word "choose"
+   :example "I chose to help."}
+  {:word "offer"
+   :example "Frank offered to drive us to the supermarket."}
+  {:word "wait"
+   :example "She waited to buy a movie ticket."}
+  {:word "would hate"
+   :example "I'd hate to be late / I'd hate you to be late."}
+  {:word "would love"
+   :example "I'd love to come / I'd love him to come."}
+  {:word "seem"
+   :example "Nancy seemed to be disappointed."}
+  {:word    "agree"
+   :example "I have agreed to support the scientist's theory."}
+  {:word "ask"
+   :example "I asked to leave early / I asked him to leave early."}
+  {:word "help"
+   :example "He helped to clean the kitchen / he helped his flatmate to clean the kitchen."}
+  {:word "plan"
+   :example "She plans to buy a new flat next year."}
+  {:word "hope"
+   :example "I hope to pass the exam."}
+  {:word "learn"
+   :example "They are learning to sing."}
+  {:word "want"
+   :example "I want to come to the party / I want him to come to the party."}
+  {:word "promise"
+   :example "We promised not to be late."}
+  {:word    "decide"
+   :example "They've decided to call off the wedding."}
+  {:word    "would like"
+   :example "Would you like to try the dress on?"}
+  {:word    "be able"
+   :example "I won't be able to work for two weeks after the operation."}
+  {:word "expect"
+   :example "They expect to arrive early / they expect Julie to arrive early"}
+  {:word "intend"
+   :example "We intend to visit you next spring."}
+  {:word "pretend"
+   :example "The child pretended to be a monster."}
+  {:word "refuse"
+   :example "The guard refused to let them enter the building."}
+  {:word "tend"
+   :example "He tends to be a little shy."}
+  {:word "would prefer"
+   :example "I'd prefer to do it / I'd prefer him to do it.
+deserv"}
+  {:word "deserve"
+   :example "He deserves to go to jail."}
+  {:word "appear"
+   :example "His health appeared to be better."}
+  {:word "arrange"
+   :example "Naomi arranged to stay with her cousin in Miami."}
+  {:word "claim"
+   :example "She claimed to be a princess."}]}

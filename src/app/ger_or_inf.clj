@@ -5,36 +5,47 @@
    [clojure.java.io :as io])
   (:gen-class))
 
+(defn- load-data
+  []
+  (edn/read-string
+              (slurp (io/resource "ger-or-inf.edn"))))
+
 (defn -main
-  [& args]
+  [& _args]
   (println "Lets check you out")
 
-  (let [data (edn/read-string
-              (slurp (io/resource "ger-or-inf.edn")))
-        words (concat (:gerund data) (:infinitive data))]
-    (loop [word (first (shuffle words))]
-      (println "gerund or infinitive (g/i) ? " (:word word))
+  (let [data (load-data)]
+    (loop [words (shuffle (concat (:gerund data)
+                                  (:infinitive data)))]
+      (let [word (first words)]
+        ;; TODO: quit
+        (println "gerund or infinitive g or i, h help ? " (:word word))
 
-      (let [answer (keyword (read-line))]
-        (cond
-          (= answer (:type word))
-          (do 
-            (println (on-green "Correct!"))
-            (println "Example: " (:example word) "\n")
-            (recur (first (shuffle words))))
+        (let [answer (keyword (read-line))]
+          (cond
+            (= answer "h")
+            (do
+              (println (:word word))
+              (recur (rest words)))
+            
+            (= answer (:type word))
+            (do 
+              (println (on-green "Correct!"))
+              (println "Example: " (:example word) "\n")
+              (recur (rest words)))
 
 
-          (not= answer (:type word))
-          (do 
-            (println (on-red "Wrong!"))
-            (println "Example: " (:example word) "\n")
-            (recur (first (shuffle words))))
+            (not= answer (:type word))
+            (do 
+              (println (on-red "Wrong!"))
+              (println "Example: " (:example word) "\n")
+              (recur (rest words)))
 
-          (= :exit answer)
-          (println "Buy!")
+            (= :q answer)
+            (println "Buy!")
 
-          :else
-          (println "type g/i"))))))
+            :else
+            (println "type g/i or h, q")))))))
 
 (comment
   (+ 1 1)
