@@ -1,3 +1,4 @@
-{:paths ["src" "classes"]
+{:paths ["src" "classes" "resources"]
  :deps  {org.clojure/clojure                     {:mvn/version "1.11.0"}
-         clojure-term-colors/clojure-term-colors {:mvn/version "0.1.0"}}}
+         clojure-term-colors/clojure-term-colors {:mvn/version "0.1.0"}}
+}

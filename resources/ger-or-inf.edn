@@ -1,0 +1,16 @@
+{:gerund [{:word "admit" :example "In court the accused admitted (to) stealing the documents."}
+          {:word "avoid" :example "I always try to avoid driving in the rush hours."}
+          {:word "be worth" :example "It isn't worth going to exhibition. It's really boring."}
+          {:word "can't help" :example "We can't help laughing when my dad tries to speak French."}
+          {:word "can't stand" :example "I can't stand talking to people who only talk about themselves."}
+          {:word "mind" :example "I don't mind doing housework."}
+          {:word "practise" :example "The more you practise speaking English the more fluent you'll get."}
+          {:word "recommend" :example "I recommend doing a double-decker bus tour as the best way to see London."}
+          {:word "suggest" :example "A friend of mine suggeted visiting London in the autumn."}
+
+          ]
+ :infinitive [{:word "afford" :example "I can't afford to go on holiday this summer."}
+              {:word "agree"  :example "I have agreed to support the scientist's theory."}
+              {:word "decide" :example "They've decided to call off the wedding."}
+              {:word "would like" :example "Would you like to try the dress on?"}
+              {:word "be able" :example "I won't be able to work for two weeks after the operation."}]}
