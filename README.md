@@ -9,3 +9,9 @@ In this game, you have to choose between two options. Choose gerund or infinitiv
 `make build`
 
 `make play-ger-or-inf`
+
+TODO:
+- add local db for scores
+- add words and prases game
+- ask questions bases on game statistic
+- use i18n
